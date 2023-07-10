@@ -1,5 +1,9 @@
 # Use TPM2 as FIDO token https://webauthn.io/
 
+FROM
+
+https://github.com/psanford/tpm-fido.git
+
 FROM 
 
 https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=tpm-fido-git
