@@ -10,3 +10,10 @@ AND FROM
 
 https://download.opensuse.org/source/tumbleweed/repo/oss/src/tpm-fido-20230621.5f8828b-1.1.src.rpm
 
+```
+cd rpmbuild
+rpmbuild -ba SPECS/tpm-fido.spec
+```
+
+
+
